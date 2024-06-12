@@ -59,4 +59,5 @@ function deleteTask(title) {
     localStorage.setItem('tasks', JSON.stringify(tasks))
     getTasks()
 }
+// Mostrar tareas al iniciar la página
 getTasks()
